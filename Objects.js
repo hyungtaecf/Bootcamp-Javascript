@@ -26,3 +26,10 @@ var simple = {
 }
 
 simple.myMethod() //The myMethod was called
+
+var myObj = {
+    name: "Jose",
+    greet: function(){
+        console.log("Hello " + this.name)
+    }
+}
